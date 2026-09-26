@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "welp";
+    src: url("rsc/Web437_IBM_Model3x_Alt2.woff");
+}
+
+body {
+	font-family: welp;
+	font-size: 14px;
+	background: #8dd0fb url("rsc/water2.webp");
+	text-align: center;
+
+}
+
+li {
+  text-align: left; 
+  margin-left: 20px
+  }
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing:4px;
+  }
+  
+.left {
+  text-align:left;
+  }
+
+.box {
+  margin: 0 auto;
+	overflow: auto;
+	background-color: #fff;
+	border: 2px solid #000;
+	width: 32em;
+	height: 24em;
+	margin-top: 10.5%;
+	padding: 3.5em 4em;
+}
+
+.box-round {
+  margin: 0 auto;
+	background-color: #fff;
+	border: 2px solid #000;
+	width: 32em;
+	height: 24em;
+	margin-top: 7.5%;
+	overflow: auto;
+	padding: 20px;
+	padding-bottom: 30px;	
+	border-radius: 50%;
+	padding: 7.5em 6em;
+}
+
+.box-noscroll {
+  margin: 5% auto 4% auto;
+	background-color: #fff;
+	border: 2px solid #000;
+	width: 32em;
+	padding: 3.5em 4em;
+}
+.old {
+	margin-top: 3%;
+	margin-bottom:3%;
+	width: 460px;
+	min-height:50px;
+	padding: 20px;
+	padding-bottom: 30px;	
+  }
+  
+.box img, .box-noscroll img, .box-round img {
+  max-width: 100%;
+  height: auto;
+  }
+
+
+@media (max-width: 500px) {
+  .box, .box-noscroll {
+    width: 85%;
+    }
+  }
+  
+@media (orientation: portrait) {
+  .box, .box-noscroll {
+    width: 85%;
+    }
+  }
