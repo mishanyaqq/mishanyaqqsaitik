@@ -26,8 +26,7 @@ a {
   
 /*Code shared by all window-style boxes. To see what different specific sidebar classes look like, check the demo page.*/
 .sidebar, .mini-sidebar, .wide-sidebar, .box {
-  background: #dff7d5;
-  
+  background: #ffffff;
   border: 1px solid #7e7e7e;
   box-shadow: 2px 2px #333232;
   }
