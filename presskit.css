@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "welp";
+    src: url("rsc/Web437_IBM_Model3x_Alt2.woff");
+}
+
+body {
+	font-family: welp;
+  background: #751710 url("rsc/yashka.gif"); 
+  background-size: 90px;
+	font-size:14px;
+  color:rgb(228, 255, 255);
+  }
+  
+main{
+  margin: 0 100px;
+	background-color: #fff;
+  background: #000 url("rsc/zakon/nastyuha.png"); 
+  background-position: 45% ;
+  background-size: cover;
+	border: 10px solid #04b42a;
+	margin-top: 10.5%;
+	padding: 3.5em 4em;
+  width: 50%;
+  float: right;
+}
+a{
+  img{
+
+	border: 2px solid #b4068f;
+  }
+}
